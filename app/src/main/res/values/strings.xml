@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">幾時大一寸</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="camera_height">鏡頭高度</string>
+    <string name="mesure_result">測量結果</string>
+
+    <string name="mesure_tip">瞄準地板測量距離\n長按並拖曳測量高度</string>
+    <string name="height_tip">拖曳至物體頂端測量高度</string>
+    <string name="no_sensor_error">此裝置偵測不到方向感應器\n功能無法使用</string>
+    <string name="height">高度</string>
+    <string name="distance">距離</string>
+</resources>
