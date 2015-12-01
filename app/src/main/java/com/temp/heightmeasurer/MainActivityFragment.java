@@ -87,7 +87,7 @@ public class MainActivityFragment extends Fragment {
 
         sensorManager = (SensorManager) getActivity().getSystemService(Context.SENSOR_SERVICE);
         gyroSensor = sensorManager.getDefaultSensor(Sensor.TYPE_ORIENTATION);
-        if(true){
+        if(gyroSensor == null){
             AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
             builder.setMessage(R.string.no_sensor_error).setPositiveButton("OK",null).show();
         }
